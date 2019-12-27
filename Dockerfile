@@ -10,9 +10,11 @@ RUN apt-get -y update && apt-get -y dist-upgrade && apt-get -y autoremove && apt
 RUN apt-get install build-essential curl file git openvpn bridge-utils kali-linux-nethunter net-tools seclists zsh -y
 RUN apt-get install sudo -y
 
+ARG PASSWORD
+
 # create a new user
 RUN adduser --quiet --disabled-password --shell /bin/bash --home /home/noob --gecos "User" noob
-RUN echo "noob:password" | chpasswd
+RUN echo "noob:${PASSWORD}" | chpasswd
 RUN usermod -aG sudo noob
 
 # switch to new user

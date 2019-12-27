@@ -1,3 +1,9 @@
 ## pentesting fun
 
-who knows!!
+to start:
+
+```
+sudo ./tunnel.sh
+enter pw...
+openvpn --config <vpnfile> --daemon
+```
