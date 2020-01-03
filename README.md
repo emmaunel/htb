@@ -90,6 +90,6 @@ If this isn't working for you, it's possible you haven't properly started `kali`
 
 ### Challenges
 
-Writeups for the various completed challenges and scripts for them are in the dedicated directories in this repository. I'm going to omit the actual flags found in the `.txt` files as well as some other sensitive spoiler info so as not to spoil the machines for anyone else.
+Writeups for the various completed challenges and scripts used for them are (and will be) in  dedicated directories within this repository. 
 
-
+I'm going to omit the actual flags found in the `.txt` flag files as well as some other sensitive info so as not to spoil the machines for anyone else.
