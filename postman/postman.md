@@ -7,7 +7,7 @@
 ### Steps
 - Run a comprehensive `nmap` scan of all ports, this will identify two running services with vulnerabilities: `redis` and `webmin`
 
-### Exploiging Redis
+### Exploiting Redis
 
 After scanning Postman, we learn that the port for `redis` is open on `6379` - but does it require authentication?
 
