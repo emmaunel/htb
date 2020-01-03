@@ -2,7 +2,7 @@
 
 ## Crouton
 
-To complete hackthebox challenges, I repurposed an old Asus Chromebook to boot into `kali-linux` using [Crouton](https://github.com/dnschneid/crouton).
+To complete hackthebox challenges, I repurposed an old Asus Chromebook to boot into `kali-linux` using [Crouton](https://github.com/dnschneid/crouton) because I was feeling masochistic.
 
 This proved tricky given my Asus (C100) is built on an `armv7l` architectrue, but I thought it would be fun to figure out how to make it work, and believe it or not it runs faster than doing it in a VM in `VirtualBox`.
 
