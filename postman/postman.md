@@ -7,7 +7,7 @@
 ### Steps
 - Run a comprehensive `nmap` scan of all ports, this will identify two running services with vulnerabilities: `redis` and `webmin`
 
-### Exploiting Redis
+### Exploiting Redis [user]
 
 After scanning Postman, we learn that the port for `redis` is open on `6379` - but does it require authentication?
 
@@ -48,7 +48,7 @@ As the `redis` user, we run `sudo su - Matt` and enter our newly cracked passwor
 
 A cursory search of Matt's files will return the `user.txt` file, victory.
 
-### Exploiting Webmin
+### Exploiting Webmin [root]
 
 This one is really straightforward because there's a a `metasploit` exploit for `webmin` that works out of the box, giving you the ability to create a reverse shell. 
 
