@@ -79,7 +79,6 @@ If this isn't working for you, it's possible you haven't properly started `kali`
 *Protip*: Once I had `kali` up and running, installing `chromium` for a web browser made life much easier.
 
 **Other Useful Tools To Install**:
-- `chromium`
 - `nmap`
 - `msfconsole`
 - `dnsutils`
