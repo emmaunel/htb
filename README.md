@@ -1,6 +1,13 @@
 # Hack The Box
 
-## Crouton
+
+## Test Environments
+
+I've configured a few - one using `crouton` on a repurposed Chromebook, another purely in `Docker` on a Mac.
+
+---
+
+### Crouton
 
 To complete hackthebox challenges, I repurposed an old Asus Chromebook to boot into `kali-linux` using [Crouton](https://github.com/dnschneid/crouton) because I was feeling masochistic.
 
@@ -85,6 +92,14 @@ If this isn't working for you, it's possible you haven't properly started `kali`
 - `vim`
 - `tmux`
 - `john`
+
+---
+
+### Docker
+
+```
+TODO
+```
 
 ---
 
